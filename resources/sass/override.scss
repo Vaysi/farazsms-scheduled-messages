@@ -1,0 +1,67 @@
+@import "~vazir-font/dist/font-face.css";
+body , .tooltip-inner {
+    font-family: Vazir,sans-serif;
+}
+
+
+// Text Align Right
+.sidebar .nav-item .nav-link , .sidebar .sidebar-heading , #accordionSidebar .nav-link[data-toggle="collapse"] + div {
+    text-align: right;
+}
+
+// Text Align Left
+#dataTable_filter {
+    text-align: left;
+}
+
+// Float Left
+.sidebar .nav-item .nav-link[data-toggle="collapse"]::after {
+    float: left;
+}
+
+// Icons
+.sidebar .nav-item .nav-link[data-toggle="collapse"].collapsed::after {
+    content:'\f104';
+}
+.sidebar #sidebarToggle::after {
+    content:'\f105';
+}
+.sidebar.toggled #sidebarToggle::after {
+    content:'\f104';
+}
+
+// Others
+.rtl {
+    direction: rtl;
+}
+.ltr {
+    direction: ltr;
+}
+.topbar .dropdown .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.page-item:last-child .page-link {
+    border-radius: .35rem 0 0 .35rem;
+}
+.page-item:first-child .page-link {
+    margin-right: 0;
+    border-radius: 0 .35rem .35rem 0;
+}
+// Hide it
+.hideIt {
+    display: none;
+}
+
+.bg-gradient-animation{
+    background: #fff;
+}
+
+.scroller{
+    height: 420px;
+    overflow-y: auto;
+    .list-group {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Login": "ورود",
+    "Register": "ثبت نام",
+    "E-Mail Address": "آدرس ایمیل",
+    "Password": "رمز عبور",
+    "Remember Me": "مرا به خاطر داشته باش",
+    "Forgot Your Password?": "فراموشی رمز عبور",
+    "Name": "نام",
+    "Confirm Password": "تکرار رمز عبور",
+    "Reset Password": "تغیر رمز عبور",
+    "Send Password Reset Link": "ارسال لینک بازیابی",
+    "Successfully Logged into The Website!" : "با موفقیت به وبسایت وارد شدید !",
+    "Dashboard": "داشبورد"
+}

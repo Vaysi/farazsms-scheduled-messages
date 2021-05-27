@@ -1,0 +1,12 @@
+// Fonts
+@import "~vazir-font/dist/font-face.css";
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: Vazir,sans-serif;
+}
